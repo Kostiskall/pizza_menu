@@ -103,7 +103,17 @@ footer {
     padding-top: 15px;
     width: 100%;
 }
+.footer-link {
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
 
+.footer-link:hover,
+.footer-link:active {
+    color: #b47c55;
+}
 @media(max-width:600px) {
     .item { flex-direction: column; }
     .price { margin-top: 5px; }
@@ -188,7 +198,12 @@ Prosciutto • Ρόκα • Πέστο βασιλικού • Μοτσαρέλα
     
 
 <footer>
-All rights reserved | Powered by Kalligiannakis Kostis
+    All rights reserved | Powered by
+    <a href="https://www.instagram.com/kostis_kall/"
+       target="_blank"
+       style="color:#6b4a31; text-decoration:none; font-weight:bold;">
+       Kalligiannakis Kostis
+    </a>
 </footer>
 
 </div>
